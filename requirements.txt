@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+yfinance
+plotly
+pandas-ta
+scikit-learn
+requests
+beautifulsoup4
+feedparser
+python-dotenv
+openai
+schedule
