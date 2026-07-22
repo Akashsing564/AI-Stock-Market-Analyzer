@@ -1,0 +1,8 @@
+fetch_data.py
+
+import yfinance as yf
+
+def get_stock_data(symbol):
+    stock = yf.Ticker(symbol)
+    df = stock.history(period="6mo")
+    return df
